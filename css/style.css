@@ -479,7 +479,6 @@ nav {
     border-radius: 10px;
 }
 
-/* CSS edicionTutoriaTutor */
 /* CSS inputs-vistas-edicion */
 
 .input-edit{
@@ -487,4 +486,28 @@ nav {
     height: 2.2rem;
     border-radius: 5px;
     border: 1px solid black;
+}
+
+
+/* CSS calificar usuario*/
+
+.modal-body{
+    padding: 40px 80px;
+}
+
+.modal-body .stars{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modal-body .stars a{
+    font-size: 40px;
+    transition: .3s;
+    color: #ccc;
+
+}
+
+.modal-body .stars a.active{
+    color: gold;
 }
