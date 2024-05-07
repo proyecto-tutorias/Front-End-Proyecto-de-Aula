@@ -278,7 +278,7 @@ nav {
 }
 
 .contenedor-miperfil {
-    padding: 72px 180px 0px 180px;
+    padding: 72px 180px 72px 180px;
 }
 
 /*Media query*/
@@ -480,15 +480,9 @@ nav {
 }
 
 /* CSS edicionTutoriaTutor */
+/* CSS inputs-vistas-edicion */
 
-.input-url{
-    width: 300px;
-    height: 2.2rem;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-
-.select-plataforma{
+.input-edit{
     width: 300px;
     height: 2.2rem;
     border-radius: 5px;
